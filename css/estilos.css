@@ -1,0 +1,21 @@
+body{
+    background-color: dimgray;
+}
+
+h1{
+    /* color: whitesmoke; */
+    background-color: blueviolet;
+    text-align: center;
+    width: 100%;
+    
+}
+
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
