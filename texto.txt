@@ -1,0 +1,36 @@
+Pasos para generar repo local 
+1. Iniciar repo con git init
+2. git add. // para añadir un archivo al almacenamiento ram (staging)
+3. git rm --cached // para quitar un archivo
+4. git commit -m "(mensaje sobre el commit)" // para añadir al repo local
+4a. git commit -am "(mensaje sobre el commit)" // hace add . + commit -m
+5. utilizo 'git status' para verificar el seguimiento de archivos
+6. git log // para visualizar los commit
+7. git log --stat // para visualizar los commit con mas detalles
+8. git reset (nro commit) // para resetear una version del commit. Este resetea y borra
+8a. git reset (nro commit) --hard // lo borra definitivamente
+8b. git reset (nro commit) --soft // 
+9. para saber que paso entre commits podemos usar "git show" y nos mostrara la informacion de su anterior commit
+10. git show (nro commit + nro commit) // nos muestra las diferencias entre commits
+11. git dif (nro commit + nro commit) // nos muestra las diferencias con mayor detalle entre commits
+
+//Ramas
+1. git branch //nos muestra las Ramas
+2. git branch (nombre de la rama) // crea la rama 
+3. git checkout (nombre de la rama) // cambia el puntero a la rama seleccionada, nos movemos de rama
+4. git merge (nombre de la rama) // una vez que tengamos los cambios realizado en la rama secundaria, volvemos a la ppal y hacemos merge para incluirla
+5. git branch -M main // antes de subir a git debemos cambiar el nombre de la rama master a main
+
+//Comandos.
+1. para crear un comando ponemos alias + (nombre de comando) = "git log......(agregamos todo el comando necesario)"
+2. alias arbol="git log --all --graph --decorate --oneline"
+
+//Subir repositorio
+1. git remote add origin https://github.com/mrkondu/tutorial-para-subir-git#tutorial-para-subir-git // pegamos el link del repo
+2. git push -f -u origin main
+
+
+
+
+//# para salir se usa ESC+Q+Q
+// ESC+SHIFT+Z+Z
