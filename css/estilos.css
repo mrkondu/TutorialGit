@@ -19,3 +19,12 @@ footer{
     width: 100%;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}

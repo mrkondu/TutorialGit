@@ -28,7 +28,8 @@ Pasos para generar repo local
 //Subir repositorio
 1. git remote add origin https://github.com/mrkondu/tutorial-para-subir-git#tutorial-para-subir-git // pegamos el link del repo
 2. git push -f -u origin main
-
+3. git pull origin // para actualizar el origin antes de subir 
+4. git push -f -u origin main // finalmente para subirlo 
 
 
 
